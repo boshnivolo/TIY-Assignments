@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "needed_node",
+=======
+  "name": "package.json",
+>>>>>>> edde9cee9fe4ad3fc7fd94376fbb4489ac00b4aa
   "version": "0.0.0",
   "description": "StringCalculator.js",
   "main": "index.js",
