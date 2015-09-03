@@ -60,6 +60,7 @@ console.assert(add(9, 9),===18);
  * @return {Number} sum of A and B
  */
 function add(A, B){
+  return (A + B)
 } // END add
 
 console.assert(minus(0, 0),===0);
@@ -126,6 +127,7 @@ console.assert(minus(9, 9),===0);
  * @return {Number} sum of A and B
  */
 function minus(A, B){
+  return A - B
 } // END add
 
 
