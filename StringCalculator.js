@@ -1,7 +1,7 @@
 var test = require('mocha').it,
   expect = require('chai').expect;
 
-test('fromEnglish: "zero" through "nine"', function(){
+test('fromEnglish: "zero" through "nine"'), function(){
   expect(fromEnglish).to.exist;
   expect(fromEnglish("zero")).to.equal(0);
   expect(fromEnglish("one")).to.equal(1);
@@ -20,7 +20,7 @@ test('plus: ("zero", "zero") through ("zero", "nine")', function(){
   expect(plus).to.exist;
   expect(plus("zero", "zero")).to.equal(0);
   expect(plus("zero", "one")).to.equal(1); // change just one thing!
-  expect(plus("zero", "two")).to.equal(FILL_ME_IN); // ha!
+  expect(plus("zero", "two")).to.equal(2); // ha!
   // write more tests like those...
 }); // END test(plus)
 
