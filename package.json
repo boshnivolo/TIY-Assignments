@@ -1,12 +1,14 @@
 {
-<<<<<<< HEAD
-  "name": "needed_node",
-=======
-  "name": "package.json",
->>>>>>> edde9cee9fe4ad3fc7fd94376fbb4489ac00b4aa
+  "name": "rovarspraket_practice",
   "version": "0.0.0",
-  "description": "StringCalculator.js",
-  "main": "index.js",
+  "description": "",
+  "main": "Rovarspraket.js",
+  "dependencies": {
+    "chai": "^3.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.0"
+  },
   "scripts": {
     "test": "mocha"
   },
@@ -14,17 +16,10 @@
     "type": "git",
     "url": "git+https://github.com/boshnivolo/TIY-Assignments.git"
   },
-  "author": "\"Jasmine Baik\"",
+  "author": "Jasmine Baik",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/boshnivolo/TIY-Assignments/issues"
   },
-  "homepage": "https://github.com/boshnivolo/TIY-Assignments#readme",
-  "dependencies": {
-    "chai": "^3.2.0",
-    "mocha": "^2.3.0"
-  },
-  "devDependencies": {
-    "mocha": "^2.3.0"
-  }
+  "homepage": "https://github.com/boshnivolo/TIY-Assignments#readme"
 }
