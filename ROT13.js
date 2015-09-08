@@ -1,13 +1,18 @@
 /**
- * The function `reverse` computes the reversal 
+ * The function `reverse` computes the reversal
  * of a given `String` (don't copy-pasta!)
  *
  * @param {String} S to reverse
  * @return {String}
  */
 function reverse(S){
+  var empty = "";
+  for (var i = S.length -1; i >= 0; i--) {
+    empty += S[i]; }
+  return empty;
+};
+
     // YOUR CODE HERE: NO INTERNET COPY-PASTA!
-}
 
 console.assert(reverse("") === ""); // Really?
 
@@ -31,14 +36,22 @@ console.assert(
  * @see String.prototype.charCodeAt
  * @see String.prototype.fromCharCode
  * @see http://en.wikipedia.org/wiki/ROT13
- * 
+ *
  * // Start with just `phrase`...
  * @param {String} phrase to encode
  * // Add `N` in part 2!
  * // @param {Number} N rotation to apply, default 13
  * @return {String} encoded with ROT13
  */
-function encode(phrase/*, N */){
+function encode(phrase, N){
+  var code = phrase.split("");
+  for (var i=0; i < code.length; i++) {
+    code[i] = String.fromCharCode(code[i] - 26);
+  } else {
+    code[i] = String.fromCharCode(code[i]);
+  }
+}
+return code.join("");
     // YOUR CODE HERE... EMPHASIS ON **YOUR**
 }
 
@@ -52,7 +65,16 @@ function encode(phrase/*, N */){
  * @return {String} decoded by ROT-N
  */
 function decode(phrase, N){
-    // YOUR CODE HERE
+  var code = phrase.split("");
+  for (var i=0; i < code.length; i++) {
+    code[i] = code [i].charCodeAt() - N;
+    if (code[i] < 97) {
+      code[i] = String.fromCharCode(code[i] + 26);
+    } else {
+      code[i] = String.fromCharCode(code[i]);
+    }
+  }
+  return code.join("");  // YOUR CODE HERE
 }
 
 // Produce more examples, please...
