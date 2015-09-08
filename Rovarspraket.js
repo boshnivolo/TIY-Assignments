@@ -90,7 +90,7 @@ function maxOfThree(A, B, C) {
 };
 
     // YOUR CODE HERE
-}
+
 
 /**
  * Write a function `isVowel` that takes a character
@@ -105,7 +105,7 @@ console.assert(isVowel("B") === false);
 console.assert(isVowel("b") === false);
 console.assert(isVowel("a") === true);
 console.assert(isVowel("E") === true);
-console.assert(isVowel("AEIOU") === false);
+console.assert(isVowel("AEIOU") === false;
 console.assert(isVowel("A") === true);
 console.assert(isVowel("e") === true);
 console.assert(isVowel("I") === true);
@@ -123,6 +123,19 @@ console.assert(isVowel("u") === true);
  * @return {Boolean} whether `char` is an English vowel
  */
 function isVowel(char){
+  if (char.length == 1){
+    var vowels = new Array("a","e","i","o","u");
+    var isVowel = false;
+
+    for(e in vowels){
+      if(vowels[e] == char){
+        isVowel = true;
+      }
+    }
+
+    return isVowel;
+  }
+
   if (char === "a") {
     return true;
   } else {
@@ -136,8 +149,43 @@ function isVowel(char){
   if (char === "E"){
     return true;
   } else {
-    return = false;
-}
+    return false;
+  }
+  if (char === "e"){
+    return true;
+  } else {
+    return false;
+  }
+  if (char === "I"){
+    return true;
+  } else {
+    return false;
+  }
+  if (char === "i"){
+    return true;
+  } else {
+    return false;
+  }
+  if (char === "O"){
+    return true;
+  } else {
+    return false;
+  }
+  if (char === "o"){
+    return true;
+  } else {
+    return false;
+  }
+  if (char === "U"){
+    return true;
+  } else {
+    return false;
+  }
+  if (char === "u"){
+    return true;
+  } else {
+    return false;
+  }
 }
 
 /**
