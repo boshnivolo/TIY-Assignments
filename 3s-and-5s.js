@@ -2,6 +2,7 @@ var test = require('mocha').it,
     expect = require('chai').expect, // Use `expect(X).to.be` et al
     assert = require('chai').assert;  // OR use `assert.equal` etc
 
+<<<<<<< HEAD
 test('making threes', function(){
   expect(threes).to.be.a('function');
   expect(threes(0)).to.deep.equal([ ]);
@@ -17,10 +18,24 @@ test('making threes', function(){
   expect(threes(16)).to.deep.equal([ 3, 6, 9, 12, 15 ]);
   //expect(three(20)).to.deep.equal([3, 6, 9, 12, 15, 18])
   //expect(three(50)).to.deep.equal([3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48])
+=======
+test('getting a list of multiples of 3', function(){
+  assert.isDefined(three);
+  assert.isFunction(three);
+  expect(three(0)).to.equal([]);
+  expect(three(3)).to.equal([]);
+  expect(three(6)).to.equal([3]);
+  expect(three(9)).to.equal([3, 6])
+  expect(three(10)).to.equal([3, 6, 9]);
+  expect(three(15)).to.equal([3, 6, 9, 12])
+  expect(three(20)).to.equal([3, 6, 9, 12, 15, 18])
+  expect(three(50)).to.equal([3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48])
+>>>>>>> 005ea5084bf015e5ba8868ef9f95627e648c8f3c
 
   // Now what should go in here?
 }); // END test 3s
 
+<<<<<<< HEAD
 /** @param {Number} N to limit my multiples
  * @return {Array} of multiples of 3 below N
  */
@@ -49,4 +64,14 @@ function threes(N){
     multiples.push(15);
   }
   return multiples;
+=======
+function three(N) {
+  var multiplesofthree = []
+  for (count = 1; count <N; count ++) {
+    if (count % 3 === 0){
+      multiplesofthree.push(count);
+    }
+  }
+  return multiplesofthree;
+>>>>>>> 005ea5084bf015e5ba8868ef9f95627e648c8f3c
 }
