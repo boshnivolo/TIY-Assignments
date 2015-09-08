@@ -22,10 +22,10 @@ console.assert(isNaN(max("aaa","bbb")));
 function max(A, B){
   if (A > B) {
     return A;
-  }
-  else {
+  } else {
     return B;
   }
+}
     // YOUR CODE HERE
 
 /**
@@ -49,9 +49,27 @@ console.assert(isNaN(maxOfThree("aaa","bbb","ccc")));
  * @param {Number} C
  * @return {Number} greatest of A, B, and C
  */
-function maxOfThree(A, B, C){
+function maxOfThree(A, B, C) {
   if (A > B > C) {
     return A;
+  }
+  else {
+    return B;
+  }
+  if (A > C > B) {
+    return A;
+  }
+  else {
+    return C;
+  }
+  if (B > C > A) {
+    return B;
+  }
+  else {
+    return C;
+  }
+  if (C > B > A) {
+    return C;
   }
   else {
     return B;
@@ -62,7 +80,15 @@ function maxOfThree(A, B, C){
   else {
     return A;
   }
-  
+  if (B > A > C) {
+    return B;
+  }
+  else {
+    return A;
+  }
+
+};
+
     // YOUR CODE HERE
 }
 
@@ -79,6 +105,15 @@ console.assert(isVowel("B") === false);
 console.assert(isVowel("b") === false);
 console.assert(isVowel("a") === true);
 console.assert(isVowel("E") === true);
+console.assert(isVowel("AEIOU") === false);
+console.assert(isVowel("A") === true);
+console.assert(isVowel("e") === true);
+console.assert(isVowel("I") === true);
+console.assert(isVowel("i") === true);
+console.assert(isVowel("O") === true);
+console.assert(isVowel("o") === true);
+console.assert(isVowel("U") === true);
+console.assert(isVowel("u") === true);
 
 // What should _this_ do?
 // console.assert(isVowel("AEIOU") === FILL_ME_IN);
@@ -88,7 +123,21 @@ console.assert(isVowel("E") === true);
  * @return {Boolean} whether `char` is an English vowel
  */
 function isVowel(char){
-    // YOUR CODE HERE
+  if (char === "a") {
+    return true;
+  } else {
+    return false;
+  }
+  if (char === "A"){
+    return true;
+  } else {
+    return false;
+  }
+  if (char === "E"){
+    return true;
+  } else {
+    return = false;
+}
 }
 
 /**
