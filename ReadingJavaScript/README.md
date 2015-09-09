@@ -20,14 +20,7 @@ References back into the page history of the given tab.
 
 #### `document` 
 
-
-
-properties like head and body
-methods like
-getElementById and getElementsByClassName
-querySelector and querySelectorAll
-appendChild and the create* family
-write and writeln
+The head contains things like the title and information the programmer needs to see, ie. notes. The body contains things like the text that will be viewable on the actual website, images, links, and buttons. getElementByID pulls items by their ID which can be helpful for changing one particular item in the file rather than every single one of that tag. getElementsByClassName pulls multiple items by their class name at the same time. querySelector returns the first element node based on the set search. querySelectorAll pulls all element nodes that match up.
 
 the HTMLElement type
 properties like
@@ -37,6 +30,7 @@ children, parent, nextSibling, and firstChild
 methods like
 addEventListener and dispatchEvent
 the *Attribute family
+
 the HTMLCollection and NodeList types
 how they differ from Array
 how they can be used like an Array
