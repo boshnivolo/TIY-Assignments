@@ -21,7 +21,10 @@ test('fromEnglish: "zero" through "nine"'), function(){
  * @return {1} value corresponding to `word`
  */
 function fromEnglish(word){
+<<<<<<< HEAD
+=======
   return word.toNumber()
+>>>>>>> edde9cee9fe4ad3fc7fd94376fbb4489ac00b4aa
 } // END fromEnglish
 
 test('plus: ("zero", "zero") through ("zero", "nine")', function(){
@@ -60,3 +63,4 @@ test('minus: ("zero", "zero") through ("zero", "nine")', function(){
 
 // What about multiplication? Division? Exponents?
 
+//minor addition
