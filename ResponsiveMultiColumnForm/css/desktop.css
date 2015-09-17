@@ -1,1 +1,26 @@
+body {
+  background-color: #47a3da;
+}
+
+.cbp-mc-column {
+  float: left;
+  margin: auto;
+  width: 33%;
+}
+
+div {
+  border: 1px solid yellow;
+
+}
+
+.cbp-mc-form input, .cbp-mc-form textarea, .cbp-mc-form select {
+  font-family: Arial;
+  font-style: italic;
+  line-height: 1.5;
+  font-size: 1.4em;
+  padding: 5px 10px;
+  display: block;
+  width: 80%;
+  background: transparent;
+}
 
