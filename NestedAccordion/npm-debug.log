@@ -3,82 +3,162 @@
 1 verbose cli   '/usr/local/bin/npm',
 1 verbose cli   'install',
 1 verbose cli   '--global',
-1 verbose cli   'generator-b5bp' ]
+1 verbose cli   'generator-h5bp' ]
 2 info using npm@2.11.3
 3 info using node@v0.12.7
 4 verbose install initial load of /usr/local/lib/package.json
 5 verbose readDependencies loading dependencies from /usr/local/lib/package.json
-6 silly cache add args [ 'generator-b5bp', null ]
-7 verbose cache add spec generator-b5bp
-8 silly cache add parsed spec { raw: 'generator-b5bp',
+6 silly cache add args [ 'generator-h5bp', null ]
+7 verbose cache add spec generator-h5bp
+8 silly cache add parsed spec { raw: 'generator-h5bp',
 8 silly cache add   scope: null,
-8 silly cache add   name: 'generator-b5bp',
+8 silly cache add   name: 'generator-h5bp',
 8 silly cache add   rawSpec: '',
 8 silly cache add   spec: '*',
 8 silly cache add   type: 'range' }
-9 silly addNamed generator-b5bp@*
-10 verbose addNamed "*" is a valid semver range for generator-b5bp
-11 silly addNameRange { name: 'generator-b5bp', range: '*', hasData: false }
-12 silly mapToRegistry name generator-b5bp
+9 silly addNamed generator-h5bp@*
+10 verbose addNamed "*" is a valid semver range for generator-h5bp
+11 silly addNameRange { name: 'generator-h5bp', range: '*', hasData: false }
+12 silly mapToRegistry name generator-h5bp
 13 silly mapToRegistry using default registry
 14 silly mapToRegistry registry https://registry.npmjs.org/
-15 silly mapToRegistry uri https://registry.npmjs.org/generator-b5bp
-16 verbose addNameRange registry:https://registry.npmjs.org/generator-b5bp not in flight; fetching
-17 verbose request uri https://registry.npmjs.org/generator-b5bp
+15 silly mapToRegistry uri https://registry.npmjs.org/generator-h5bp
+16 verbose addNameRange registry:https://registry.npmjs.org/generator-h5bp not in flight; fetching
+17 verbose request uri https://registry.npmjs.org/generator-h5bp
 18 verbose request no auth needed
-19 info attempt registry request try #1 at 4:29:06 PM
-20 verbose request id 1caef02f390c4f19
-21 http request GET https://registry.npmjs.org/generator-b5bp
-22 http 404 https://registry.npmjs.org/generator-b5bp
-23 verbose headers { 'content-type': 'application/json',
-23 verbose headers   'cache-control': 'max-age=0',
-23 verbose headers   'content-length': '2',
-23 verbose headers   'accept-ranges': 'bytes',
-23 verbose headers   date: 'Mon, 21 Sep 2015 20:29:06 GMT',
-23 verbose headers   via: '1.1 varnish',
-23 verbose headers   age: '0',
-23 verbose headers   connection: 'keep-alive',
-23 verbose headers   'x-served-by': 'cache-iad2134-IAD',
-23 verbose headers   'x-cache': 'MISS',
-23 verbose headers   'x-cache-hits': '0',
-23 verbose headers   'x-timer': 'S1442867346.460189,VS0,VE60' }
-24 silly get cb [ 404,
-24 silly get   { 'content-type': 'application/json',
-24 silly get     'cache-control': 'max-age=0',
-24 silly get     'content-length': '2',
-24 silly get     'accept-ranges': 'bytes',
-24 silly get     date: 'Mon, 21 Sep 2015 20:29:06 GMT',
-24 silly get     via: '1.1 varnish',
-24 silly get     age: '0',
-24 silly get     connection: 'keep-alive',
-24 silly get     'x-served-by': 'cache-iad2134-IAD',
-24 silly get     'x-cache': 'MISS',
-24 silly get     'x-cache-hits': '0',
-24 silly get     'x-timer': 'S1442867346.460189,VS0,VE60' } ]
-25 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/generator-b5bp
-25 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:239:14)
-25 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:170:14)
-25 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:354:22)
-25 verbose stack     at Request.emit (events.js:110:17)
-25 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1207:14)
-25 verbose stack     at Request.emit (events.js:129:20)
-25 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1153:12)
-25 verbose stack     at IncomingMessage.emit (events.js:129:20)
-25 verbose stack     at _stream_readable.js:908:16
-25 verbose stack     at process._tickCallback (node.js:355:11)
-26 verbose statusCode 404
-27 verbose pkgid generator-b5bp
-28 verbose cwd /Users/Jasmine/Documents/TIY-Assignments/NestedAccordion
-29 error Darwin 14.5.0
-30 error argv "node" "/usr/local/bin/npm" "install" "--global" "generator-b5bp"
-31 error node v0.12.7
-32 error npm  v2.11.3
-33 error code E404
-34 error 404 Registry returned 404 for GET on https://registry.npmjs.org/generator-b5bp
-34 error 404
-34 error 404 'generator-b5bp' is not in the npm registry.
-34 error 404 You should bug the author to publish it (or use the name yourself!)
-34 error 404
-34 error 404 Note that you can also install from a
-34 error 404 tarball, folder, http url, or git url.
-35 verbose exit [ 1, true ]
+19 info attempt registry request try #1 at 4:30:10 PM
+20 verbose request id b4f5c53cc7d63f1d
+21 http request GET https://registry.npmjs.org/generator-h5bp
+22 http 200 https://registry.npmjs.org/generator-h5bp
+23 silly get cb [ 200,
+23 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+23 silly get     etag: '"E5B93QQNY3A0WNDHIUNVITH3R"',
+23 silly get     'content-type': 'application/json',
+23 silly get     'cache-control': 'max-age=60',
+23 silly get     'content-length': '15663',
+23 silly get     'accept-ranges': 'bytes',
+23 silly get     date: 'Mon, 21 Sep 2015 20:30:10 GMT',
+23 silly get     via: '1.1 varnish',
+23 silly get     age: '0',
+23 silly get     connection: 'keep-alive',
+23 silly get     'x-served-by': 'cache-iad2121-IAD',
+23 silly get     'x-cache': 'HIT',
+23 silly get     'x-cache-hits': '1',
+23 silly get     'x-timer': 'S1442867410.712686,VS0,VE84',
+23 silly get     vary: 'Accept' } ]
+24 verbose get saving generator-h5bp to /Users/Jasmine/.npm/registry.npmjs.org/generator-h5bp/.cache.json
+25 silly addNameRange number 2 { name: 'generator-h5bp', range: '*', hasData: true }
+26 silly addNameRange versions [ 'generator-h5bp',
+26 silly addNameRange   [ '0.1.0',
+26 silly addNameRange     '0.1.1',
+26 silly addNameRange     '0.1.2',
+26 silly addNameRange     '0.1.3',
+26 silly addNameRange     '0.1.4',
+26 silly addNameRange     '0.1.5',
+26 silly addNameRange     '0.1.6',
+26 silly addNameRange     '0.1.7',
+26 silly addNameRange     '1.0.0',
+26 silly addNameRange     '1.1.0',
+26 silly addNameRange     '1.2.0',
+26 silly addNameRange     '1.2.1' ] ]
+27 silly addNamed generator-h5bp@1.2.1
+28 verbose addNamed "1.2.1" is a plain semver version for generator-h5bp
+29 silly mapToRegistry name generator-h5bp
+30 silly mapToRegistry using default registry
+31 silly mapToRegistry registry https://registry.npmjs.org/
+32 silly mapToRegistry uri https://registry.npmjs.org/generator-h5bp
+33 verbose addRemoteTarball https://registry.npmjs.org/generator-h5bp/-/generator-h5bp-1.2.1.tgz not in flight; adding
+34 verbose addRemoteTarball [ 'https://registry.npmjs.org/generator-h5bp/-/generator-h5bp-1.2.1.tgz',
+34 verbose addRemoteTarball   '89a4ad693215b7a32a07610bc8aae11ca1ae097b' ]
+35 info retry fetch attempt 1 at 4:30:10 PM
+36 info attempt registry request try #1 at 4:30:10 PM
+37 http fetch GET https://registry.npmjs.org/generator-h5bp/-/generator-h5bp-1.2.1.tgz
+38 http fetch 200 https://registry.npmjs.org/generator-h5bp/-/generator-h5bp-1.2.1.tgz
+39 silly fetchAndShaCheck shasum 89a4ad693215b7a32a07610bc8aae11ca1ae097b
+40 verbose addTmpTarball /var/folders/b0/q6gjvqn92693j3r0z3m3r1w00000gn/T/npm-14422-8de4a204/registry.npmjs.org/generator-h5bp/-/generator-h5bp-1.2.1.tgz not in flight; adding
+41 verbose addTmpTarball already have metadata; skipping unpack for generator-h5bp@1.2.1
+42 silly cache afterAdd generator-h5bp@1.2.1
+43 verbose afterAdd /Users/Jasmine/.npm/generator-h5bp/1.2.1/package/package.json not in flight; writing
+44 verbose afterAdd /Users/Jasmine/.npm/generator-h5bp/1.2.1/package/package.json written
+45 silly install resolved [ { name: 'generator-h5bp',
+45 silly install resolved     version: '1.2.1',
+45 silly install resolved     description: 'HTML5 Boilerplate generator',
+45 silly install resolved     keywords: [ 'yeoman-generator', 'html', 'boilerplate', 'template', 'h5bp' ],
+45 silly install resolved     author:
+45 silly install resolved      { name: 'Sindre Sorhus',
+45 silly install resolved        email: 'sindresorhus@gmail.com',
+45 silly install resolved        url: 'sindresorhus.com' },
+45 silly install resolved     main: 'app/index.js',
+45 silly install resolved     repository:
+45 silly install resolved      { type: 'git',
+45 silly install resolved        url: 'git+https://github.com/h5bp/generator-h5bp.git' },
+45 silly install resolved     scripts: { test: 'mocha' },
+45 silly install resolved     dependencies: { 'yeoman-generator': '^0.19.2', 'yeoman-assert': '^2.0.0' },
+45 silly install resolved     devDependencies: { mocha: '*' },
+45 silly install resolved     engines: { node: '>=0.10.0' },
+45 silly install resolved     licenses: 'MIT',
+45 silly install resolved     files: [ 'app' ],
+45 silly install resolved     gitHead: 'c63d5cba7326b8390f1e5478fe39a9fa8194b4cb',
+45 silly install resolved     bugs: { url: 'https://github.com/h5bp/generator-h5bp/issues' },
+45 silly install resolved     homepage: 'https://github.com/h5bp/generator-h5bp#readme',
+45 silly install resolved     _id: 'generator-h5bp@1.2.1',
+45 silly install resolved     _shasum: '89a4ad693215b7a32a07610bc8aae11ca1ae097b',
+45 silly install resolved     _from: 'generator-h5bp@*',
+45 silly install resolved     _npmVersion: '2.9.0',
+45 silly install resolved     _nodeVersion: '0.12.2',
+45 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+45 silly install resolved     dist:
+45 silly install resolved      { shasum: '89a4ad693215b7a32a07610bc8aae11ca1ae097b',
+45 silly install resolved        tarball: 'http://registry.npmjs.org/generator-h5bp/-/generator-h5bp-1.2.1.tgz' },
+45 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+45 silly install resolved     directories: {},
+45 silly install resolved     _resolved: 'https://registry.npmjs.org/generator-h5bp/-/generator-h5bp-1.2.1.tgz' } ]
+46 info install generator-h5bp@1.2.1 into /usr/local/lib
+47 info installOne generator-h5bp@1.2.1
+48 verbose installOne of generator-h5bp to /usr/local/lib not in flight; installing
+49 verbose lock using /Users/Jasmine/.npm/_locks/generator-h5bp-ed725b03b8a6c92e.lock for /usr/local/lib/node_modules/generator-h5bp
+50 silly install write writing generator-h5bp 1.2.1 to /usr/local/lib/node_modules/generator-h5bp
+51 verbose unbuild lib/node_modules/generator-h5bp
+52 silly gentlyRm /usr/local/lib/node_modules/generator-h5bp is being purged from base /usr/local
+53 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/generator-h5bp
+54 verbose tar unpack /Users/Jasmine/.npm/generator-h5bp/1.2.1/package.tgz
+55 verbose tar unpacking to /usr/local/lib/node_modules/generator-h5bp
+56 silly gentlyRm /usr/local/lib/node_modules/generator-h5bp is being purged
+57 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/generator-h5bp
+58 silly gunzTarPerm modes [ '755', '644' ]
+59 error tar.unpack untar error /Users/Jasmine/.npm/generator-h5bp/1.2.1/package.tgz
+60 verbose unlock done using /Users/Jasmine/.npm/_locks/generator-h5bp-ed725b03b8a6c92e.lock for /usr/local/lib/node_modules/generator-h5bp
+61 verbose fstream_path /usr/local/lib/node_modules/generator-h5bp
+62 verbose fstream_type Directory
+63 verbose fstream_class DirWriter
+64 verbose stack Error: EACCES, mkdir '/usr/local/lib/node_modules/generator-h5bp'
+64 verbose stack     at Error (native)
+65 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25
+65 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53
+65 verbose fstream_stack FSReqWrap.oncomplete (fs.js:95:15)
+66 verbose cwd /Users/Jasmine/Documents/TIY-Assignments/NestedAccordion
+67 error Darwin 14.5.0
+68 error argv "node" "/usr/local/bin/npm" "install" "--global" "generator-h5bp"
+69 error node v0.12.7
+70 error npm  v2.11.3
+71 error path /usr/local/lib/node_modules/generator-h5bp
+72 error code EACCES
+73 error errno -13
+74 error Error: EACCES, mkdir '/usr/local/lib/node_modules/generator-h5bp'
+74 error     at Error (native)
+74 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/generator-h5bp']
+74 error   errno: -13,
+74 error   code: 'EACCES',
+74 error   path: '/usr/local/lib/node_modules/generator-h5bp',
+74 error   fstream_type: 'Directory',
+74 error   fstream_path: '/usr/local/lib/node_modules/generator-h5bp',
+74 error   fstream_class: 'DirWriter',
+74 error   fstream_stack:
+74 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25',
+74 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53',
+74 error      'FSReqWrap.oncomplete (fs.js:95:15)' ] }
+75 error Please try running this command again as root/Administrator.
+76 verbose exit [ -13, true ]
+77 verbose unbuild lib/node_modules/generator-h5bp
+78 silly gentlyRm /usr/local/lib/node_modules/generator-h5bp is being purged from base /usr/local
+79 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/generator-h5bp
