@@ -23,6 +23,38 @@ A generic page division that should only be used if no other, more semantic choi
 
 . . .
 
+### `<!DOCTYPE>` -- Tells the file what form of code it will contain.
+
+### `<...>` -- These arrows surround a word representing a tag in HTML. As a general rule, tags need an opening tag and a closing tag (</>). 
+ 
+ * Some other rules are that things like links need a reference. 
+ * Tags can have attributes that affect style
+ * Must be a registered HTML5 code. Can't be made up by you.
+
+### `<head>` -- Contains the title of the webpage.
+
+### `<title>` -- Text written within this tag becomes the title of the webpage often seen in the tab.
+
+### `<body>` -- Contains the content found within the viewport. Can have text, pictures, links, etc in it. 
+
+### `<p>` -- Creates a block of text that can be formatted into a paragraph. Found in the body.
+
+### `<ul>` -- Creates an unordered list. Found in the body. 
+
+### `<ol>` -- Creates an ordered list. Found in the body. 
+ 
+### `<a>` -- Followed by an href, or reference, to the a document elsewhere. Found in the body.
+
+### `<li>` -- Moves on to a new line. Found in the body. 
+
+### `<em>` -- Emphasizes. Makes eclipsing text italizes. Found in body. 
+
+### `<strong>` -- Bolds. Helps make text stand out. 
+
+### `<h1>` -- Changes stylistic format of text meant to be a header. From 1 to 6 it decreases in size. 
+
+### `attributes` -- Allows formatting changes to tags. Found within the < > of a tag directly after it. Use colons after attribute to signify the value of the change. 
+
 ###### Footnotes
 
 [1](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Flow_content)
