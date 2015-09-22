@@ -24,4 +24,3 @@ list.addEventListener('click', function (listButton) {
   list.className = "cbp-vm-icon cbp-vm-list cbp-vm-selected";
   grid.className = "cbp-vm-icon cbp-vm-grid";
 });
-
