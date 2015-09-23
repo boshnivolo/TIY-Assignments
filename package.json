@@ -1,0 +1,25 @@
+{
+  "name": "rovarspraket_practice",
+  "version": "0.0.0",
+  "description": "",
+  "main": "Rovarspraket.js",
+  "dependencies": {
+    "chai": "^3.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boshnivolo/TIY-Assignments.git"
+  },
+  "author": "Jasmine Baik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/boshnivolo/TIY-Assignments/issues"
+  },
+  "homepage": "https://github.com/boshnivolo/TIY-Assignments#readme"
+}

@@ -1,0 +1,10 @@
+@media (max-width: 1024px) and (min-width: 768px) {
+  div.cbp-mc-column {
+    width: 50%;
+    float: left;
+  }
+  div.cbp-mc-column:nth-child(3) {
+    width: 100%;
+    float: left;
+  }
+}
