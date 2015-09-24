@@ -1,0 +1,30 @@
+.cbp-nttrigger h3 {
+  font-size: 30pt;
+  color: rgb(71, 163, 218);
+  font-family: Lato, Calibri, Arial, sans-serif;
+  cursor: pointer;
+  font-weight: 300;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+.cbp-ntsubaccordion ul {
+  font-size: 20pt;
+  color: #47a3da;
+  font-family: Lato, Calibri, Arial, sans-serif;
+  text-align: left;
+  list-style: none;
+}
+
+body {
+  font-family: Arial;
+  h3 {
+    color: cornflowerblue;
+    div {
+      padding: 30px;
+    }
+  }
+}
+
+p {
+  color: slategrey;
+}
