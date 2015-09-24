@@ -3,7 +3,11 @@ body {
   color: #47a3da;
 }
 
-header > span {
+header {
+  color: aquamarine;
+}
+
+header span {
   letter-spacing: 5px;
   font-size: 20pt;
 }
