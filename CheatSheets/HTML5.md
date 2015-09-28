@@ -103,6 +103,46 @@ Sets up a term in the description list.
 
 Sets up the description of the a term that had been set up in a description list. 
 
+#### `<table>` 
+
+Creates a table meant to house input in formatted cells.
+
+#### `<caption>`
+
+Is the title of a table. 
+
+#### `<col>`
+
+Defines a column within a table. 
+
+#### `<colgroup>` 
+
+Defines a group of columns within a table. 
+
+#### `<tbody>`
+
+Defines a grouping of `<tr>` elements within a table. 
+
+#### `<thead>`
+
+Contains the title and heading information for a table. Precedes the table body. 
+
+#### `<tfoot>`
+
+Contains the footing information for a table. 
+
+#### `<tr>`
+
+Creates a new row within a table.
+
+#### `<td>` 
+
+Defines a table cell within a table.
+
+#### `<th>`
+
+Creates a new table cell made for a heading. 
+
 
 ###### Footnotes
 
