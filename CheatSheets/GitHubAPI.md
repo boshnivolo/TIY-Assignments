@@ -125,13 +125,13 @@ Used for server to server interactions. Be wary of leaking client info.
     urls and various strings. 
     
     
-    * How can I use the Github API to...
-    * get all the comments for a particular issue?
-    * add a comment to an issue?
-  * How can I use the jQuery API to...
-    * get the HTML contents of an element?
-    * create a _new_ HTML element?
-    * add an HTML element to the page?
-  * How can I use the Lodash API to...
-    * replace placeholders with values from an object?
-    * repeat code for every item of an array
+* How can I use the Github API to... 
+    * get all the comments for a particular issue? `GET /repos/:owner/:repo/pulls/:number/comments`
+    * add a comment to an issue? `GET /repos/:owner/:repo/pulls/comments/:id`
+* How can I use the jQuery API to...
+    * get the HTML contents of an element? `GET /repos/:owner/:repo/contents/:path`
+    * create a _new_ HTML element? `PUT /repos/:owner/:repo/contents/:path`
+    * add an HTML element to the page? `PUT /repos/:owner/:repo/contents/:path`
+* How can I use the Lodash API to...
+    * replace placeholders with values from an object? _Wrap it in a string method `replace`_
+    * repeat code for every item of an array `_.repeat`
