@@ -71,3 +71,55 @@ Used for server to server interactions. Be wary of leaking client info.
     
     > How do I know that there is more data available?
     It should tell you that your data has been compressed....
+    
+> What are the endpoints for fetching...
+    
+    > the profile data for a user?
+    
+    All the personal details of a user such as name, number, etc.
+    
+    > the organizations a user belongs to?
+    
+    All the groups the user has been added to and their info. 
+    
+    > the repositories a user has created?
+    
+    All the different repositories with their specific pathways and date created, content, etc. 
+    
+    > a filtered list of repositories?
+    
+    All the repos that fit into the specified parameters of the search. 
+    
+    > a sorted list of repositories?
+    
+    All the repos in a particular order based on the parameters of the search. 
+    
+    > public events for a user?
+    
+    Info on the moves and online actions that have not been labeled as private by the user. 
+    
+> When fetching public events for a user...
+
+    > How many results are returned by default?
+    
+    None. 
+    
+    > What limitations exist on fetching more results?
+    
+    Depends on the level of access granted by the key. More secure access garners more results, but is still limited to a set number within a certain time frame. 
+    
+    > What is the basic structure of the results?
+    
+    Name, urls, user info, pictures, etc. 
+    
+    > What fields are included in each result?
+    
+    Name, username, user info
+    
+    > What are the data types for each field?
+    
+    Strings and numbers.
+    
+    > What are some of the different values for the type field?
+    
+    urls and various strings. 
