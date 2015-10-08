@@ -1,0 +1,11 @@
+{
+  "name": "dropdownmenu",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "npm"
+  },
+  "author": "Jasmine Baik",
+  "license": "MIT"
+}

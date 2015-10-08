@@ -1,0 +1,20 @@
+{
+  "name": "DropDownMenu",
+  "version": "0.0.0",
+  "homepage": "https://github.com/boshnivolo/TIY-Assignments",
+  "authors": [
+    "Jasmine Baik <boshnivolo@gmail.com>"
+  ],
+  "description": "",
+  "main": "bower.josn",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
