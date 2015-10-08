@@ -10,5 +10,8 @@
   "license": "MIT",
   "devDependencies": {
     "node-sass": "^3.3.3"
+  },
+  "dependencies": {
+    "browser-sync": "^2.9.10"
   }
 }
