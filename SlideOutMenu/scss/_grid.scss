@@ -1,33 +1,67 @@
-.spirits {
-  float:left;
-  width:15%;
-  display:inline-block;
+.brand {
+  margin-left: 4em;
+  color: #47a3da;
+  letter-spacing: 5pt;
+  font-weight: bold;
 }
 
-.beverages {
-  float:left;
-  width:15%;
-  display:inline-block;
+.model {
+  margin-left: 2em;
+  color: #47a3da;
+  font-weight: lighter;
 }
 
-.liquors {
-  float:left;
-  width:15%;
-  display:inline-block;
+.tabs {
+  color: white;
+  text-decoration: none;
+  margin: 0;
+  padding-left: 2em;
+  padding-top: 1.5ex;
+  padding-bottom: 1.5ex;
+  width: 15%;
+  float: left;
+  text-align: center;
+  font-size: 1.5vw;
+  border-bottom: 1px solid white;
 }
 
-.mission {
-  float:left;
-  width:15%;
-  display: inline-block;
+.tab_space {
+  background-color: #47a3da;
+  width: 100%;
+  position: absolute;
 }
 
-.contact {
-  float:left;
-  width:15%;
-  display:inline-block;
+.panels {
+  display: none;
+  color: #a2a2a2;
+  background-color: #f0f0f0;
+}
+
+section.active {
+  display: inherit;
+  background-color: #f0f0f0;
+  clear: both;
 }
 
 a {
   display: inline-block;
+}
+
+a:hover {
+  color: #02639d;
+}
+
+.bottles {
+  height: 15vw;
+  width: 15vw;
+  clear: both;
+  position:inherit;
+  background-color: #f0f0f0;
+}
+
+div {
+  width: 15%;
+  float: left;
+  text-align: center;
+  background-color: #f0f0f0;
 }
