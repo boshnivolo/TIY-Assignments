@@ -1,0 +1,25 @@
+@media (max-width: 825px) {
+  .tabs {
+    width: 100%;
+    float: left;
+    font-size: 15pt;
+    padding-left: 0;
+    background-color: #47a3da
+  }
+  .brand {
+    text-align: center;
+    margin-left: 0;
+  }
+  .model {
+    text-align: center;
+    margin-left: 0;
+  }
+  .bottles {
+    float: left;
+    height: 50px;
+    width: 50px;
+  }
+  .panels {
+    background color: #f0f0f0;
+  }
+}
